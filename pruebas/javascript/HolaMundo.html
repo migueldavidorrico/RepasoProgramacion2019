@@ -1,9 +1,14 @@
 <h1 id="nombre">
-
-    </h1>
+</h1>
 
 <script>
+    document.write("hola");
     alert("Hola mundo");
     respuesta=prompt("¿Su nombre?");
     nombre.innerHTML=respuesta;
+    document.write("<h2>"+respuesta+"</h2>");
+    for(i=0;i<10;i++){
+        document.write("<li>"+i+"</li>");
+    }
+    nombre.style.color="#ff0";
 </script>

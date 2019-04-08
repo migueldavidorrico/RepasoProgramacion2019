@@ -1,0 +1,13 @@
+<form>
+    Peso <input type="text" id="peso"><br>
+    Altura <input type="text" id="altura"><br>
+    <input type="text" value="Calcular" onclick="pulsado()">
+    <h2 id="resultado"></h2>
+</form>
+<script>
+    function pulsado(){
+        pesoIntroducido=peso.value;
+        alturaIntroducida=altura.value;
+        resultado.innerText=pesoIntroducido/(alturaIntroducida*alturaIntroducida);
+    }
+</script>

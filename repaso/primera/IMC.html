@@ -1,0 +1,12 @@
+<script>
+    peso=prompt("Peso en Kg");
+    altura=prompt("Altura en m");
+    imc=peso/(altura*altura);
+    alert("Tu IMC es: "+imc);
+    if(imc<18.5){
+        alert("Peso insuficiente");
+    }
+    if(imc>=18.5 && imc<24.9){
+        alert("Normopeso");
+    }
+</script>

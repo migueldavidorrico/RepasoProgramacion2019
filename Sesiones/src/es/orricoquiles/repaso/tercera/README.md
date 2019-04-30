@@ -1,4 +1,1 @@
-##Tercera Sesión
-
-###Métodos (Funciones, procedimientos)
-
+Tercera sesión. Métodos

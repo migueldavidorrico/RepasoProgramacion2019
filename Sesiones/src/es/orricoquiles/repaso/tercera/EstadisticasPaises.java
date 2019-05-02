@@ -12,8 +12,12 @@ public class EstadisticasPaises {
     static double[] datos = new double[3];
 
     public static void main(String[] args) {
-
-        leerPaises();
+        String[] ue = new String[27];
+        int[] pobUE = new int[27];
+        leerPaises(ue, pobUE);
+        String[] CPI = new String[15];
+        int[] pobCPI = new int[15];
+        leerPaises(CPI, pobCPI);
         hacerCalculos();
         imprimirResultados();
     }
@@ -54,8 +58,8 @@ public class EstadisticasPaises {
 
     }
 
-    private static void leerPaises() {
-        for (int i = 0; i < NUM_PAISES; i++) {
+    private static void leerPaises(String[] nombres, int[] poblaciones) {
+        for (int i = 0; i < nombres.length; i++) {
             System.out.print("Nombre " + (i + 1) + ":");
             nombres[i] = sc.nextLine();
             System.out.print("Población " + (i + 1) + ":");

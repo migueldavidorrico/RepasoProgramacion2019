@@ -3,10 +3,13 @@ package es.orricoquiles.repaso.segunda;
 import javax.swing.*;
 
 public class Password {
+
+    public static final String PASS = "1234";
+
     public static void main(String[] args) {
         String respuesta = JOptionPane.showInputDialog(null, "¿Pass?");
         int numeroIntentos = 0;
-        while ("1234".equals(respuesta) && numeroIntentos++ < 4) {
+        while (PASS.equals(respuesta) && numeroIntentos++ < 4) {
             respuesta = JOptionPane.showInputDialog(null, "¿Pass?");
             if (respuesta == null) {
                 JOptionPane.showMessageDialog(null, "¡¡¡¡NO CANCELES!!!!");
@@ -16,7 +19,7 @@ public class Password {
                 JOptionPane.showMessageDialog(null, "¡¡¡¡ESCRIBE ALGO!!!!");
                 continue;
             }
-            if (respuesta.equals("1234")) {
+            if (respuesta.equals(PASS)) {
                 break;
             }
 

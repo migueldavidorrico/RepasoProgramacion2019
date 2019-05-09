@@ -1,8 +1,11 @@
 package es.orricoquiles.repaso.es.orricoquiles.repaso.cuarta;
 
-public class Infante {
+import java.io.Serializable;
+
+public class Infante implements Serializable {
     final String nombre;
     int altura;
+
 
     public Infante(String nombre, int altura) {
         this.nombre = nombre;

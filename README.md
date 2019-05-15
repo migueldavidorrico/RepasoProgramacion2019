@@ -13,5 +13,5 @@ Repositorio con los programas del curso de repaso/introducción a la programaci�
 | 4   | Programación Orientada a Objetos Ejemplos Prácticos | 9 de mayo de 2019 |
 | 5   | Colecciones Ejemplos Prácticos | 16 de mayo de 2019 |
 | 6   | Flujos de E/S Ejemplos Prácticos | 23 de mayo de 2019 |
-| 7   | Java 8: Expresiones Lambda y Streams Ejemplos Prácticos | 30 de mayo de 2019 |
+| 7   | Java 8: Expresiones Lambda y Streams Ejemplos Prácticos | ~~30 de mayo de 2019~~ Anulada|
 
